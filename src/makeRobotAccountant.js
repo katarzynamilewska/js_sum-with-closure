@@ -14,11 +14,9 @@ function makeRobotAccountant() {
 
       if (callCount > 3 && callCount % 2 === 0) {
         return 'Bzzz... Error!';
-      } else if (callCount <= 3) {
-        return a + b;
-      } else {
-        return a + b;
       }
+
+      return a + b;
     };
   };
 }
